@@ -15,6 +15,6 @@ welcomeH1.innerText = `Welcome ${user.name}`;
 
 
 logOutBtn.addEventListener("click", function(){
-      location.href = "http://127.0.0.1:5500/html/Login/index.html";
+      location.href = "https://youssefdiaa10.github.io/smartLogin2/index.html";
 });
 
