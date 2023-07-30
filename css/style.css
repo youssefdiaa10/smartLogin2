@@ -1,0 +1,89 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.big-box{
+    margin-top: 50px;
+}
+.small-box{
+    background-color: #24353f;
+    box-shadow:  -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8;
+}
+.my-input{
+    padding: 7px 13px;
+    background-color: #24353f;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.my-input:focus{
+    border: 1px solid #17a2b8;
+}
+.my-input::placeholder{
+    color: rgb(161, 161, 161)
+}
+.sign-up-btn{
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.sign-up-btn:hover{
+    color: white;
+    background-color: #17a2b8;
+}
+.sign-up-btn a{
+    color: rgb(177, 176, 176);
+    transition: all 0.3s;
+}
+.sign-up-btn:hover a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+/*! Welcome */
+.my-navbar{
+    background-color: #24353f;
+    box-shadow:  -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.smart-login-logo{
+    margin-left: 100px;
+}
+.login-btn{
+    margin-right: 110px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.login-btn:hover{
+    background-color: orange;
+}
+.login-btn a{
+    color: rgb(161, 161, 161);
+    transition: all 0.3s;
+}
+.login-btn:hover a{
+    color: white;
+}
+.big-box-welcome{
+    margin-top: 300px;
+}
+#welcomeH1{
+    font-size: 40px;
+}
+#welcomeH2{
+    font-size: 40px;
+}

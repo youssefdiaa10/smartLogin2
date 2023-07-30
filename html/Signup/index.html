@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/media.css" />
+    <title>Smart Login</title>
+</head>
+<body>
+
+
+  <div class="container big-box d-flex justify-content-center align-items-center ">
+      <div class="p-5 small-box w-75 d-flex flex-column align-items-center">
+        <h1 class="text-center">Smart Login System</h1>
+
+        <input type="text" name="name" placeholder="Enter your name" id="nameSignUp" class="my-input form-control-plaintext w-100 my-2">
+
+        <input type="email" name="email" placeholder="Enter your email" id="emailSignUp" class="my-input form-control-plaintext w-100 my-2">
+
+        <input type="password" name="password" placeholder="Enter your password" id="passwordSignUp" class="my-input form-control-plaintext w-100 my-2">
+
+        <p class="d-none text-danger text-center my-2" id="inputRequired2">All Inputs is required</p>
+        <p class="d-none text-danger text-center my-2" id="alreadyExistsAlert">Email already exists</p>
+        <div class="d-none " id="inputInvalid">
+          <p class="text-danger text-center my-3 ">Invalid Name or Email or Password</p>
+
+          <p class="text-warning text-center mt-4 ">Name must start with:</p>
+          <p class="text-warning text-center">Capital Letter and be between 1 and 30 Characters</p>
+          <p class="text-warning text-center mb-5 ">No Spaces</p>
+
+          <p class="text-warning text-center mt-5 ">Email must be:</p>
+          <p class="text-warning text-center mb-5 ">(name) + @gmail.com</p>
+
+          <p class="text-warning text-center mt-5 ">Password must:</p>
+          <p class="text-warning text-center ">Contains at least 8 Characters</p>
+          <p class="text-warning text-center ">Contains at least 1 capital Letter</p>
+          <p class="text-warning text-center ">Contains at least 1 small Letter</p>
+          <p class="text-warning text-center ">Contains at least 1 Number</p>
+          <p class="text-warning text-center ">Contains at least 1 special Character</p>
+        </div>
+        <p class="d-none text-danger text-center my-2 ">Invalid Name or Email or Password</p>
+        <p class="d-none text-success text-center my-2" id="inputSuccess">Success</p>
+
+        <button type="submit" onclick="signUp()" class="sign-up-btn btn w-100 my-4 text-center">Sign Up</button>
+        <p class="text-white my-1 text-center">You have an account ? <a href="../Login/index.html" class="text-center">Sign in</a></p>
+      </div>
+  </div>
+
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/Login & Signup/index.js"></script>
+</body>
+</html>
