@@ -162,7 +162,7 @@ function logIn(){
 
         localStorage.setItem('user', JSON.stringify(user))
 
-        location.href = "http://127.0.0.1:5500/html/Welcome/index.html";
+        location.href = "https://youssefdiaa10.github.io/smartLogin2/html/Welcome/index.html";
       }
     }
 }
